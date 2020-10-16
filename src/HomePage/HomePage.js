@@ -7,7 +7,7 @@ function HomePage() {
     const [ chartData, setChartData ] = useState({
     datasets: [
         {
-            data: [1, 2, 3, 4, 5, 6, 7],
+            data: [],
             backgroundColor: [
                 '#ffcd56',
                 '#ff6384',
