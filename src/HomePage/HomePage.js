@@ -24,7 +24,7 @@ function HomePage() {
 });
         
 useEffect(() => { 
-    axios.get('http://localhost:3000/budget.json').then(function(res)
+    axios.get('http://localhost:3000/budget').then(function(res)
     {
         console.log(res);
         let data = [];
@@ -41,6 +41,7 @@ useEffect(() => {
     
     
 }, [] );
+
     
   return (
     <article className="container center">
